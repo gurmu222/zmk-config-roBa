@@ -115,11 +115,11 @@
 
         NUM {
             // 記号キーはJIS配列Windows向けのキーコード。
-            // 例: "=LS(N2) / '=LS(N7) / @=LBKT / +=LS(SEMI) / *=LS(SQT) / |=LS(INT3)
+            // 例: "=LS(N2) / '=LS(N7) / @=LBKT / +=LS(SEMI) / *=LS(SQT) / |=LS(INT3) / :=SQT (COLONは使わない。LS(SEMI)相当になり+が出てしまう)
 
             bindings = <
-&kp RS(COLON)               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LS(SEMI)                                             &kp LS(N2)       &kp LS(N7)    &kp LS(EQUAL)  &kp LS(NUMBER_6)  &kp PRCNT
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(SQT)   &kp LC(LA(KP_NUMBER_0))      &kp LS(INT1)  &kp EXCLAMATION  &kp QUESTION  &kp HASH       &kp SEMI          &kp COLON
+&kp SQT                     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LS(SEMI)                                             &kp LS(N2)       &kp LS(N7)    &kp LS(EQUAL)  &kp LS(NUMBER_6)  &kp PRCNT
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(SQT)   &kp LC(LA(KP_NUMBER_0))      &kp LS(INT1)  &kp EXCLAMATION  &kp QUESTION  &kp HASH       &kp SEMI          &kp SQT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp LS(MINUS)                &kp LBKT      &kp LS(N8)       &kp LS(N9)    &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
 &trans                      &trans           &trans           &kp KP_NUMBER_0  &trans        &trans                       &trans        &trans                                                          &kp LS(INT3)
             >;
