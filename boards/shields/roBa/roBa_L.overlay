@@ -14,7 +14,3 @@
 &left_encoder {
     status = "okay";
 };
-
-&trackball_listener {
-    status = "okay";
-};
