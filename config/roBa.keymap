@@ -151,7 +151,7 @@
 &kp ESC  &kp F1  &kp W            &kp R           &kp MINUS                                            &none            &none   &none   &none   &kp MINUS
 &trans   &kp A   &kp KP_NUMBER_5  &kp D           &kp UP_ARROW    &to 0                &kp UP_ARROW    &trans           &trans  &trans  &trans  &kp ENTER
 &trans   &kp H   &kp S            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp DOWN_ARROW  &trans           &trans  &trans  &trans  &to 0
-&trans   &trans  &trans           &trans          &kp ENTER       &mkp LCLK            &kp LEFT_ARROW  &kp RIGHT_ARROW                          &kp INSERT
+&trans   &trans  &trans           &kp TAB         &kp ENTER       &mkp LCLK            &kp LEFT_ARROW  &kp RIGHT_ARROW                          &kp INSERT
             >;
         };
 
